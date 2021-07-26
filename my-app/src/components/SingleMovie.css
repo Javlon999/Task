@@ -1,0 +1,55 @@
+
+.mainPage p{
+    font-size: 24px;
+    list-style: none;
+    text-decoration: none;
+    color: #ffff !important;
+}
+.description{
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;  
+}
+
+.moviePhoto{
+display: flex;
+justify-content: flex-start;
+padding: 50px;
+}
+
+
+.movieDetails {
+    margin: 50px;
+}
+.movieDetails h4{
+ font-size: 24px;
+}
+.movieDetails h6{
+    font-size: 18px;
+   }
+.movieDetails h4{
+    font-size: 24px;
+   }
+
+   .movieDetails h5{
+    font-size: 24px;
+   }
+.movieDetails h4,h5,h6{
+    padding:25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffff;
+}
+.snapshots{
+    display: flex;
+}
+.actorsName{
+    display: flex;
+    color: #ffff;
+}
+.actors p{
+    font-size: 28px;
+    padding:10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffff;
+    text-align: center;
+}

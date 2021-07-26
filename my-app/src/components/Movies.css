@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #282c34;
+  }
+  
+  .AllMovies {
+    text-align: center;
+  }
+  
+  .Movies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:20px 50px;
+  }
+  .MovieDetails{
+    background-color: #f5f5f5;
+    padding:20px 20px;
+    cursor: pointer;
+  
+  }
+  .MovieDetails2{
+    background-color: #b3b6bd;
+    position: relative;
+  
+  }
+  .titleOfMovie{
+    background-color: #b3b6bd;
+    position: absolute;
+    bottom:10%;
+  }
+  .yearOfMovie{
+    background-color: #b3b6bd;
+  }
+  .MovieQuality{
+      position: absolute;
+      top: 0%;
+      font-size: 12px;
+  
+  }
+  .MovieQuality .new{
+    background: #ffae00 !important;
+    color: #f5f5f5;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-;
+  }
+  .MovieQuality .hd{
+    background: #064c68 !important;
+    color: #f5f5f5;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-;
+  }
+  
+ 
