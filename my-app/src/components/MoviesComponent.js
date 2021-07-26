@@ -9,7 +9,7 @@ return (
         {loading && datas? 
     
         <div>
-             {console.log('loading',loading)}
+            
         <div  className="Movies">
         { datas ? datas.map((items)=>{
           return (
@@ -29,11 +29,9 @@ return (
         }) :'something wrong'}
         </div>
         {datas ? 
-        <div>   
-
-<button onClick={handlePagePrevios}>Previos Page</button>
-<button onClick={handlePageNext}>Next Page</button>
-
+        <div>
+           <button  className="ClickButton" onClick={handlePagePrevios}>Previos Page</button>
+           <button  className="ClickButton" onClick={handlePageNext}>Next Page</button>
 </div> :'something wrong'}
        
         </div> :<LoaderComponent/>}

@@ -7,7 +7,7 @@
   .AllMovies {
     text-align: center;
   }
-  
+ 
   .Movies{
     display: flex;
     align-items: center;
@@ -51,4 +51,10 @@
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-;
   }
   
- 
+  .ClickButton{
+    padding: 20px;
+    background-color: yellow;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+  }

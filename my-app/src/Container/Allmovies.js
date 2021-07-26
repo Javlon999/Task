@@ -39,7 +39,11 @@ function Allmovies() {
     }
   
   return (
-         <MoviesComponent loading={loading} datas={datas} handlePagePrevios={handlePagePrevios} handlePageNext={handlePageNext}/>
+       
+  <MoviesComponent loading={loading} datas={datas} handlePagePrevios={handlePagePrevios} handlePageNext={handlePageNext}/>
+  
+     
+
   );
 }
 
